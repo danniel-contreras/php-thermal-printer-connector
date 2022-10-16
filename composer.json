@@ -1,0 +1,20 @@
+{
+  "name": "user/printer",
+  "type": "no",
+  "authors": [
+    {
+      "name": "danniel-contreras",
+      "email": "contrerasdannniel@gmail.com"
+    }
+  ],
+  "require": {
+    "mike42/escpos-php": "^2.2",
+    "slim/slim": "^4.10",
+    "slim/psr7": "^1.5",
+    "slim/http": "^1.2",
+    "laravel/lumen": "^9.0"
+  },
+  "scripts": {
+    "dev": "php -S localhost:8080"
+  }
+}
