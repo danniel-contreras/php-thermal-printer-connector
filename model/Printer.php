@@ -13,7 +13,7 @@ namespace UsePrint {
                 /* Print a "Hello world" receipt" */
                 $printer = new Printer($connector);
 
-                $printer->text("Hola Fer!\n");
+                $printer->text("Hola Mundo!\n");
                 foreach ($data as $res) {
                     $printer->text("$res->product - $res->quantity - $res->price\n");
                 }
